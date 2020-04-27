@@ -1,5 +1,5 @@
 body {
-	width : 100%;
+	width : 1440px;
 	margin:0;
 	padding:0;
 	font-size: 14px;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-	width: 82.25%;
+	width: 1170px;
 	margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .header-title {
-	width: 24%;
+	width: 347px;
 	height: 47px;
 	margin: 0 auto;
 	margin-top: 60px;
