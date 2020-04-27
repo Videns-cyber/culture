@@ -1,5 +1,6 @@
 body {
 	width : 1440px;
+	height: 2047px;
 	margin:0;
 	padding:0;
 	font-size: 14px;
@@ -33,10 +34,10 @@ body {
 	margin:0;
 	font-family: Playfair Display;
 	font-style: normal;
-        font-weight: 900;
-        font-size: 35px;
-        line-height: 47px;
-        letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -93,7 +94,6 @@ body {
 	height: 464px;	
 	background-color: #001d2d;
 	background-image: url("https://videns-cyber.github.io/culture/img/underwater_hotel.jpg");
-	
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -129,10 +129,10 @@ body {
 	margin:0;
 	color: #ffffff;
 	font-size: 72px;
-        line-height: 84px;
-        text-align: center;
-        letter-spacing: 2px;
-        text-transform: uppercase;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 	font-weight: normal;
 	font-style: normal;
 }
@@ -148,9 +148,9 @@ body {
 .header-promo p {
 	margin:0;
 	font-style: normal;
-        font-weight: normal;
-        text-align: center;
-        color: #FFFFFF;
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
 	
 }
 
@@ -176,11 +176,11 @@ body {
 .reviews-title h3 {
 	margin:0;
 	font-style: normal;
-        font-weight: bold;
-        font-size: 17px;
-        line-height: 20px;
-        letter-spacing: 2px;
-        text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
 	text-transform: uppercase;
 }
 
@@ -212,9 +212,9 @@ body {
 	position: relative;
 }
 
- .reviews-items-1 div:first-of-type,
- .reviews-items-2 div:first-of-type,
- .reviews-items-3 div:first-of-type {
+.reviews-items-1 div:first-of-type,
+.reviews-items-2 div:first-of-type,
+.reviews-items-3 div:first-of-type {
 	position: absolute;
 	margin:0;
 	width: 368px;
@@ -526,5 +526,3 @@ footer {
 	top: 15px;
 	left: 12px;
 }
-
-
