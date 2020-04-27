@@ -498,8 +498,8 @@ footer {
 	position: relative;
 }
 
-.page-footer .social li:hover {
-	background-color: #ff7931;
+.page-footer .social li:hover .social-btn {
+	transform: scale(1.2);
 }
 
 .page-footer .social-btn {
@@ -507,6 +507,7 @@ footer {
 	position: absolute;
 	width: 23px;
 	height: 24px;
+	border: 1px dashed white;
 }
 
 .page-footer .social .in {
