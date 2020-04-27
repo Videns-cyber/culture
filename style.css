@@ -1,0 +1,530 @@
+body {
+	width : 1440px;
+	height: 2047px;
+	margin:0;
+	padding:0;
+	font-size: 14px;
+	line-height: 21px;
+	font-family: Roboto, sans-serif;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.container::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.header-title {
+	width: 347px;
+	height: 47px;
+	margin: 0 auto;
+	margin-top: 60px;
+	display: block;
+	position: relative;
+}
+
+.header-title h2 {
+	margin:0;
+	font-family: Playfair Display;
+	font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.main-menu {
+	width: 1168px;
+	margin:0;
+	margin-top: 47px;
+	display: flex;
+	justify-content: space-between;	
+	
+}
+
+.main-menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+	padding:0;
+	margin:0;
+	text-align: center;
+	flex-grow: 1;
+}
+
+.main-menu ul li {
+	
+	display: inline-block;
+    flex-grow: 1;
+}
+
+.main-menu ul li:last-of-type {
+	margin-right:0;
+}
+
+.main-menu ul li:first-of-type {
+	margin-left:0;
+}
+
+.main-menu ul li a{
+	font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;
+}
+
+.header-promo {
+	margin-top: 47px;
+	width: 1440px;
+	height: 464px;	
+	background-color: #001d2d;
+	background-image: url("img/underwater_hotel.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.header-promo:: after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.header-logo {
+	position: absolute;
+	top: 46px;
+	left: 693px;
+}
+
+.header-logo img {
+	width: 55px;
+	height: 55px;
+}
+
+.header-promo-title {
+	width: 764px;
+	height: 80px;
+	position: absolute;
+	top: 133px;
+	left: 344px;
+}
+
+.header-promo-title h2 {
+	margin:0;
+	color: #ffffff;
+	font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.header-promo-content {
+	width: 456px;
+	height: 64px;
+	position: absolute;
+	top: 352px;
+	left: 492px;
+}
+
+.header-promo p {
+	margin:0;
+	font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
+	
+}
+
+.reviews {
+	margin:0;
+	margin-top: 44px;
+	display: block;
+	z-index: 1;
+}
+
+.reviews .container {
+	height: 368px;
+}
+
+.reviews-title {
+	width: 83px;
+	height: 20px;
+	margin: 0 auto;
+	
+	
+}
+
+.reviews-title h3 {
+	margin:0;
+	font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+	text-transform: uppercase;
+}
+
+.reviews-items{
+	margin-top: 20px;
+	display: flex;
+}
+
+.reviews-items ul {
+	padding:0;
+	margin:0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+
+.reviews-items ul li {
+	list-style: none;
+}
+
+.reviews-items img {
+	width: 370px;
+	height: 203px;
+	
+}
+
+.reviews-items-1, .reviews-items-2, .reviews-items-3 {
+	position: relative;
+}
+
+.reviews-items-1 div:first-of-type,
+.reviews-items-2 div:first-of-type,
+.reviews-items-3 div:first-of-type {
+	position: absolute;
+	margin:0;
+	width: 368px;
+	height: 31px;
+	left:0px;
+	top: 223px;
+}
+
+
+.reviews-items-1 div:first-of-type h4,
+.reviews-items-2 div:first-of-type h4,
+.reviews-items-3 div:first-of-type h4 {
+	font-family: Playfair Display;
+	margin:0;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 31px;
+}
+
+.reviews-items-1 div:first-of-type h4:hover,
+.reviews-items-2 div:first-of-type h4:hover,
+.reviews-items-3 div:first-of-type h4:hover,
+.main-menu ul li a:hover
+ {
+	color: #ff7931;
+	cursor:pointer;
+}
+
+
+.reviews-items-1 div:nth-of-type(2),
+.reviews-items-2 div:nth-of-type(2),
+.reviews-items-3 div:nth-of-type(2) {
+	position: absolute;
+	margin:0;
+	width: 370px;
+	height: 63px;
+	left: 0;
+	top: 265px;
+}
+
+.reviews-items-1 div:nth-of-type(2) p,
+.reviews-items-2 div:nth-of-type(2) p,
+.reviews-items-3 div:nth-of-type(2) p {
+	margin:0;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 21px;
+	text-align: left;
+}
+
+.poster {
+	margin:0;
+	margin-top: 51px;
+	width: 1440px;
+	height: 556px;
+	background-color: #f7f7f7;
+	position: relative;
+	z-index: -3;
+}
+
+.subscription {
+	width: 707px;
+	height: 707px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	position: absolute;
+	left: 366px;
+    top: -75px;
+	z-index: -2;
+}
+
+.subscription > div:first-of-type{
+	margin: 0 auto;
+	margin-top: 108px;
+}
+
+.subscription-title {
+	width: 224px;
+	height: 20px;
+}
+
+.subscription-title h3 {
+	margin:0;
+	font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.subscription-items-1,
+.subscription-items-2,
+.subscription-items-3 {
+	display: flex;
+	flex-direction: column;
+	width: 370px;
+	justify-content: center;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.subscription-items-1:hover h4,
+.subscription-items-2:hover h4,
+.subscription-items-3:hover h4 {
+	border-bottom: 1px solid black;
+}
+
+.subscription-items-1 div,
+.subscription-items-2 div,
+.subscription-items-3 div {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin:0 auto;
+}
+
+.subscription-items-1 div h4,
+.subscription-items-2 div h4,
+.subscription-items-3 div h4 {
+	font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+	margin:0;
+}
+
+
+
+.subscription-items-1 div p,
+.subscription-items-2 div p,
+.subscription-items-3 div p {
+	width: 370px;
+	height: 63px;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+	margin:0;
+}
+
+.subscription-items-1 div:first-of-type {
+	margin-top: 35px;
+}	
+
+.subscription-items-1 div:last-of-type,
+.subscription-items-2 div:last-of-type,
+.subscription-items-3 div:last-of-type {
+	margin-top:10px;
+}	
+
+.subscription hr {
+	width: 100px;
+	height:0;
+	opacity: 0.4;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transform: rotate(0.1deg);
+	margin:0 auto;
+}	
+
+button {
+	margin: 0 auto;
+	margin-top: 25px;
+	display: block;
+	width: 170px;
+	height:47px;
+	background-color: #ff7931;
+	box-shadow: none;
+	border: none;
+	position: relative;
+	cursor: pointer;
+}
+
+button:hover {
+	filter:saturate(250%);
+    cursor: pointer;
+}
+
+button span {
+	position: absolute;
+	top: 17px;
+	left: 30px;
+	font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+button span::after {
+	content: "";
+	background: url("img/shape.png") no-repeat;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: -2px;
+	right: -27px;
+}
+
+footer {
+	margin:0;
+	margin-top: 50px;
+	width: 1440px;
+	height: 295px;
+	background-color: #575757;
+}
+
+.footer-title {
+	width: 347px;
+	height: 47px;
+	margin: 0 auto;
+	padding:0;
+	padding-top: 26px;
+
+}
+
+.footer-title h2 {
+	margin:0;
+	font-family: Playfair Display;
+	font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+}
+
+.page-footer .main-menu {
+	margin:0;
+	margin-top: 32px;
+}
+
+.page-footer .main-menu li a{
+	color: #ffffff;
+}
+
+.page-footer hr {
+	width: 1170px;
+	height: 0;
+	opacity: 0.4;
+	border: 1px solid #ffffff;
+	margin:o;
+	margin-top: 46px;
+	
+}
+
+.page-footer .social {
+	margin:0 auto;
+	margin-top: 42px;
+	display: flex;
+	width: 169px;
+	height: 47px;
+}
+
+.page-footer .social ul {
+	display: flex;
+	justify-content: space-between;
+	flex-grow: 1;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.page-footer .social ul li{
+	font-size: 0;
+	display: block;
+	width: 47px;
+	height: 47px; 
+	padding:0;
+}
+
+.page-footer .social li {
+	background-color: #ffffff;
+	position: relative;
+}
+
+.page-footer .social li:hover {
+	background-color: #ff7931;
+}
+
+.page-footer .social-btn {
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 23px;
+	height: 24px;
+}
+
+.page-footer .social .in {
+	background-image: url("img/instagram_icon.png");
+	top: 12px;
+	left: 12px;
+}
+
+.page-footer .social .fb {
+	background-image: url("img/facebook_icon.png");
+	top: 13px;
+	left: 17px;
+}
+
+.page-footer .social .tw {
+	background-image: url("img/twitter_icon.png");
+	top: 15px;
+	left: 12px;
+}
+
+
