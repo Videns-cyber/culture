@@ -511,19 +511,19 @@ footer {
 }
 
 .page-footer .social .in {
-	background-image: url("https://videns-cyber.github.io/culture/img/instagram_icon.png");
+	background-image: url("https://videns-cyber.github.io/culture/img/instagram_icon.svg");
 	top: 12px;
 	left: 12px;
 }
 
 .page-footer .social .fb {
-	background-image: url("https://videns-cyber.github.io/culture/img/facebook_icon.png");
+	background-image: url("https://videns-cyber.github.io/culture/img/facebook_icon.svg");
 	top: 13px;
 	left: 17px;
 }
 
 .page-footer .social .tw {
-	background-image: url("https://videns-cyber.github.io/culture/img/twitter_icon.png");
+	background-image: url("https://videns-cyber.github.io/culture/img/twitter_icon.svg");
 	top: 15px;
 	left: 12px;
 }
