@@ -34,10 +34,10 @@ body {
 	margin:0;
 	font-family: Playfair Display;
 	font-style: normal;
-    font-weight: 900;
-    font-size: 35px;
-    line-height: 47px;
-    letter-spacing: 1px;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 47px;
+        letter-spacing: 1px;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -130,10 +130,10 @@ body {
 	margin:0;
 	color: #ffffff;
 	font-size: 72px;
-    line-height: 84px;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+        line-height: 84px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
 	font-weight: normal;
 	font-style: normal;
 }
@@ -149,9 +149,9 @@ body {
 .header-promo p {
 	margin:0;
 	font-style: normal;
-    font-weight: normal;
-    text-align: center;
-    color: #FFFFFF;
+        font-weight: normal;
+        text-align: center;
+        color: #FFFFFF;
 	
 }
 
@@ -177,11 +177,11 @@ body {
 .reviews-title h3 {
 	margin:0;
 	font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-align: center;
 	text-transform: uppercase;
 }
 
@@ -213,9 +213,9 @@ body {
 	position: relative;
 }
 
-.reviews-items-1 div:first-of-type,
-.reviews-items-2 div:first-of-type,
-.reviews-items-3 div:first-of-type {
+ .reviews-items-1 div:first-of-type,
+ .reviews-items-2 div:first-of-type,
+ .reviews-items-3 div:first-of-type {
 	position: absolute;
 	margin:0;
 	width: 368px;
@@ -412,7 +412,7 @@ button span {
 
 button span::after {
 	content: "";
-	background: url("img/shape.png") no-repeat;
+	background: url("https://videns-cyber.github.io/culture/img/shape.png") no-repeat;
 	position: absolute;
 	width: 16px;
 	height: 16px;
@@ -511,19 +511,19 @@ footer {
 }
 
 .page-footer .social .in {
-	background-image: url("img/instagram_icon.png");
+	background-image: url("https://videns-cyber.github.io/culture/img/instagram_icon.png");
 	top: 12px;
 	left: 12px;
 }
 
 .page-footer .social .fb {
-	background-image: url("img/facebook_icon.png");
+	background-image: url("https://videns-cyber.github.io/culture/img/facebook_icon.png");
 	top: 13px;
 	left: 17px;
 }
 
 .page-footer .social .tw {
-	background-image: url("img/twitter_icon.png");
+	background-image: url("https://videns-cyber.github.io/culture/img/twitter_icon.png");
 	top: 15px;
 	left: 12px;
 }
