@@ -379,6 +379,7 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.2);
     transform: rotate(0.1deg);
 	margin:0 auto;
+	margin-bottom: 23px;
 }	
 
 button {
@@ -396,7 +397,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    transform: scale(2);	
+    transform: saturate(250%);	
 }
 
 button span {
@@ -511,7 +512,6 @@ footer {
 	position: absolute;
 	width: 23px;
 	height: 24px;
-	border: 1px dashed red;
 }
 
 .page-footer .social .in {
