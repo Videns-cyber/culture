@@ -99,7 +99,7 @@ body {
 	position: relative;
 }
 
-.header-promo:: after {
+.header-promo::after {
 	content: "";
 	display: table;
 	clear: both;
